@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -4035208960375497750}
   - component: {fileID: 5326667406439667357}
   - component: {fileID: 6158530003870937012}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BrickOnStair
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2939864279307667941}
   - component: {fileID: 1762139968237958994}
   - component: {fileID: -7355044151436903257}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BrickOnStage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5534f0f0644810b41a39ee10a9caa110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tf: {fileID: 0}
   meshRenderer: {fileID: 2368807554360103119}
   colorMaterial: {fileID: 11400000, guid: 78e9068bd9fcaad48bc5908f003df0cb, type: 2}
   stage: {fileID: 0}

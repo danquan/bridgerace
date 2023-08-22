@@ -37,8 +37,8 @@ public class BrickOnStair : ColoredBrick
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag(Constant.TAG_PLAYER)
-        || other.gameObject.CompareTag(Constant.TAG_BOT))
+        //if (other.gameObject.CompareTag(Constant.TAG_PLAYER)
+        //|| other.gameObject.CompareTag(Constant.TAG_BOT))
         {
             // cache for optimization
             Cache.GetCharacter(other).UnBlockRunUp();

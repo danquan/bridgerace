@@ -660,8 +660,8 @@ MonoBehaviour:
   - {fileID: 5988816018520921170}
   - {fileID: 2067579968}
   player: {fileID: 1449951261}
-  playerPrefab: {fileID: 3056359409066996601, guid: 77b2e4fa51a7e8045993428b5ad64eb7, type: 3}
-  botPrefab: {fileID: 2649859858392232527, guid: d8a3f12d97ec67c48a036bde9d2e14aa, type: 3}
+  playerPrefab: {fileID: 2847361606827134964, guid: 77b2e4fa51a7e8045993428b5ad64eb7, type: 3}
+  botPrefab: {fileID: 7140336873740856754, guid: d8a3f12d97ec67c48a036bde9d2e14aa, type: 3}
   listChars: []
 --- !u!1001 &280805797
 PrefabInstance:
@@ -4326,6 +4326,10 @@ PrefabInstance:
     - target: {fileID: 490894355703780927, guid: 2be8689af4340481493c2c9f51d8eeb8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 490894355807161299, guid: 2be8689af4340481493c2c9f51d8eeb8, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

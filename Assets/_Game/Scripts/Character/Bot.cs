@@ -19,8 +19,9 @@ public class Bot : Character
         OnInit();
     }
 
-    public void OnInit()
+    override public void OnInit()
     {
+        base.OnInit();
         // Do nothing
         return;
     }
@@ -30,7 +31,10 @@ public class Bot : Character
     /// </summary>
     override public void BlockRunUp()
     {
+        agent.speed = 0f;
+        agent.isStopped = true;
         ChangeState(new CollectState(currentStage.GetRandNumBricks()));
+        agent.isStopped = false;
     }
     override public void UnBlockRunUp()
     {
@@ -62,6 +66,7 @@ public class Bot : Character
     {
         this.destination = destination;
         agent.SetDestination(destination);
+        agent.speed = moveSpeed;
     }
     
     /// <summary>

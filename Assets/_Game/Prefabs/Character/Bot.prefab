@@ -329,6 +329,7 @@ MonoBehaviour:
   tf: {fileID: 5000129676292926625}
   agent: {fileID: 3010084347437451536}
   skinRenderer: {fileID: 1714511825812340250}
+  moveSpeed: 3
   numberDefaultBrick: 0
   mainBody: {fileID: 7431204238371009471}
   animController: {fileID: 5863636962706079868}

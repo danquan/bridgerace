@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : Character
 {
     [SerializeField] private Joystick joystick;
-    [SerializeField] private float moveSpeed = 1f;
     // Start is called before the first frame update
 
     protected bool isPaused = false;

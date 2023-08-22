@@ -11,6 +11,7 @@ abstract public class Character : MonoBehaviour
     [SerializeField] public NavMeshAgent agent = null;
     [SerializeField] protected SkinnedMeshRenderer skinRenderer = null;
 
+    [SerializeField] protected float moveSpeed = 1f;
     // for debugging
     [SerializeField] private int numberDefaultBrick = 0;
 

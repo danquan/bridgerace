@@ -32,8 +32,8 @@ public class BrickOnStage : ColoredBrick
     {
         Character otherChar = Cache.GetCharacter(other);
 
-        if(other.gameObject.CompareTag(Constant.TAG_PLAYER) 
-        || other.gameObject.CompareTag(Constant.TAG_BOT))
+        //if(other.gameObject.CompareTag(Constant.TAG_PLAYER) 
+        //|| other.gameObject.CompareTag(Constant.TAG_BOT))
         {
             if (otherChar.GetColor() != this.GetColor())
                 return;
